@@ -35,10 +35,10 @@ class MainWindow(QMainWindow):
         self.ui.tabWidget.addTab(SerialAssistWidget(self),"串口助手")
         self.ui.tabWidget.addTab(BlAssistWidget(self),"蓝牙助手")
         self.ui.tabWidget.addTab(ChatRoomsWidget(self),"聊天室")
-        #self.ui.tabWidget.setCurrentIndex(0)
+        self.ui.tabWidget.setCurrentIndex(0)
         #self.ui.tabWidget.setCurrentIndex(1)
         #self.ui.tabWidget.setCurrentIndex(2)
-        self.ui.tabWidget.setCurrentIndex(3)
+        #self.ui.tabWidget.setCurrentIndex(3)
         
         bar = self.statusBar()
         bar.showMessage("请点击连接",3000)
