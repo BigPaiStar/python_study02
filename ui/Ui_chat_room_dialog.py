@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_ChatRoomDialog(object):
     def setupUi(self, ChatRoomDialog):
         ChatRoomDialog.setObjectName("ChatRoomDialog")
-        ChatRoomDialog.resize(606, 472)
+        ChatRoomDialog.resize(609, 472)
         self.layoutWidget = QtWidgets.QWidget(ChatRoomDialog)
         self.layoutWidget.setGeometry(QtCore.QRect(10, 10, 591, 459))
         self.layoutWidget.setObjectName("layoutWidget")
@@ -53,7 +53,7 @@ class Ui_ChatRoomDialog(object):
         self.verticalLayout.setObjectName("verticalLayout")
         self.edit_notice = QtWidgets.QTextEdit(self.groupBox)
         self.edit_notice.setMinimumSize(QtCore.QSize(150, 0))
-        self.edit_notice.setMaximumSize(QtCore.QSize(180, 16777215))
+        self.edit_notice.setMaximumSize(QtCore.QSize(190, 16777215))
         self.edit_notice.setReadOnly(True)
         self.edit_notice.setObjectName("edit_notice")
         self.verticalLayout.addWidget(self.edit_notice)
@@ -64,7 +64,7 @@ class Ui_ChatRoomDialog(object):
         self.verticalLayout_2.setObjectName("verticalLayout_2")
         self.lv_members = QtWidgets.QListView(self.groupBox_2)
         self.lv_members.setMinimumSize(QtCore.QSize(150, 0))
-        self.lv_members.setMaximumSize(QtCore.QSize(180, 16777215))
+        self.lv_members.setMaximumSize(QtCore.QSize(190, 16777215))
         self.lv_members.setObjectName("lv_members")
         self.verticalLayout_2.addWidget(self.lv_members)
         self.verticalLayout_3.addWidget(self.groupBox_2)

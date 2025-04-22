@@ -145,6 +145,7 @@ class ChatRoomsWidget(QWidget):
         # print(selected_index, selected_index.row(), type(selected_index))
         if selected_index is None or selected_index.row() == -1:
             print("未选中条目")
+            QMessageBox.information(self,"提示","请先选择聊天室")
             return
 
         room = self.model.get_data(selected_index.row())
